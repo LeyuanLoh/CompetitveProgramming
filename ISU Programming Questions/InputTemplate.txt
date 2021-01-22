@@ -1,0 +1,15 @@
+public static void main(String args[]){
+        try{
+            BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+
+            String line;
+            int nums = Integer.parseInt(buffer.readLine());
+
+            buffer.close();
+        }catch(Exception ex){
+            System.out.println("Error");
+        }
+    }
+import java.awt.*;
+import java.io.*;
+import java.util.*;
