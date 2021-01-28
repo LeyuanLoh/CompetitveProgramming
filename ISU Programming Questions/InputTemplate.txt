@@ -2,14 +2,19 @@ public static void main(String args[]){
         try{
             BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
-            String line;
-            int nums = Integer.parseInt(buffer.readLine());
+            String[] vals = buffer.readLine().split(" ");
+
 
             buffer.close();
         }catch(Exception ex){
-            System.out.println("Error");
+            System.out.println(ex.getMessage());
         }
     }
 import java.awt.*;
 import java.io.*;
 import java.util.*;
+
+            BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
+            out.write("Hello");
+            out.flush();
+            out.close();

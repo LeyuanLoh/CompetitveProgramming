@@ -25,6 +25,8 @@ public class TernaryString {
         }
     }
 
+
+
     //BruteForce approach
 //    public int findSubstring(String line) {
 //
